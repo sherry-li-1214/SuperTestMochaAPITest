@@ -1,0 +1,25 @@
+{
+	"name": "API_supertest",
+	"version": "1.0.0",
+	"description": "This is a POC for supertest tool",
+	"main": "index.js",
+	"scripts": {
+		"test": "set AUTO_ENV=dev && mocha **/**TokenTest.spec.js && mocha --reporter json > reports/test-results.json",
+		"report": "mocha --reporter mochawesome"
+	},
+	"keywords": [
+		"supertest"
+	],
+	"author": "sherry",
+	"license": "ISC",
+	"devDependencies": {
+		"chai": "^4.3.7",
+		"jsonwebtoken": "^9.0.1",
+		"jwks-rsa": "^3.0.1",
+		"mocha": "^10.2.0",
+		"supertest": "^6.3.3"
+	},
+	"dependencies": {
+		"mochawesome": "^7.0.1"
+	}
+}

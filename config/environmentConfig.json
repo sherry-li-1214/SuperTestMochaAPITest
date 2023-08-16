@@ -1,0 +1,16 @@
+{
+    "env": [
+        {
+            "dev":{
+                "baseUrl":""
+            }
+        },
+        {
+            "sit":{
+                "baseUrl":""
+            }
+        }
+    ],
+    "tokenServerUrl":"https://dev-5twd4ss9.auth0.com",
+    "deCodeServer":"https://dev-5twd4ss9.auth0.com/.well-known/jwks.json"
+}
